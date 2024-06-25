@@ -1,20 +1,67 @@
-import React from 'react';
-import Stepper from './Stepper';
-import './BusinessIncorporation.css';
-import StepperFooter from '../footer/StepperFooter';
+
+
+import React, { useState } from 'react';
+import './BusinessIncorporation.css'
+import HStepper from './HStepper';
+import StepperFooter from './StepperFooter';
+import Shareholder from "../../components/shareholder/Shareholder";
+import Summary from "../../components/summary/Summary";
+import Welcome from "../../components/welcome/Welcome";
+import CorporateInformation from "../../components/corporateInformation/CorporateInformation";
 
 const BusinessIncorporation = () => {
+  const steps = [
+    'Welcome',
+    'Corporate Information',
+    'Company Questionnaire',
+    'Company Name',
+    'Shareholder',
+    'Director',
+    'Officer',
+    'Summary'
+  ];
+
+  const [activeStep, setActiveStep] = useState(0);
+
+  const handleNext = () => {
+    if (activeStep < steps.length - 1) {
+      setActiveStep(prev => prev + 1);
+    }
+  };
+
+  const handleBack = () => {
+    if (activeStep > 0) {
+      setActiveStep(prev => prev - 1);
+    }
+  };
+
+  const handleGetStarted = () => {
+    // Your get started logic here
+  };
+
   return (
-    <>
-      <div className="h-full flex flex-col justify-between mt-32">
-        <div className="p-28 bg-white rounded-16">
-          <h1>Business Incorporation</h1>
-          <Stepper />
-        </div>
-        {/* <StepperFooter /> */}
+    <div>
+      <HStepper currentStep={activeStep} numberOfSteps={steps.length} />
+      <div className="render-component">
+      <StepperFooter className="mt-32"
+        activeStep={activeStep}
+        steps={steps}
+        onNext={handleNext}
+        onBack={handleBack}
+        onGetStarted={handleGetStarted}
+      />
+      <Welcome />
+          <br />
+          <CorporateInformation />
+          <br />
+          <Shareholder />
+          <br />
+          <Summary />
       </div>
-    </>
+      
+    </div>
   );
 };
 
 export default BusinessIncorporation;
+

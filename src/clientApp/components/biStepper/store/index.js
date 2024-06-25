@@ -1,7 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import stepperSlice from './stepperSlice';
+import stepperReducer from './stepperSlice';
 
-const reducer = combineReducers({
-    stepperSlice,
+const clientAppReducer = combineReducers({
+  stepper: stepperReducer,
 });
-export default reducer;
+
+export default clientAppReducer;
