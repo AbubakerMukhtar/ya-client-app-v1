@@ -1,0 +1,28 @@
+/* Step.css */
+.step {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 2px solid #28264B;
+    transition: background-color 0.3s;
+  }
+  .step-label{
+    font-size: 12.8px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 60%;
+
+  }
+  .step.active {
+    width: 32px;
+    height: 32px;
+    background-color: #28264b;
+    color: #fff;
+  }
+  

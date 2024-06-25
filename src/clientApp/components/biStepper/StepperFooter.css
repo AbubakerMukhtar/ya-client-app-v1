@@ -1,9 +1,11 @@
 footer{
   height: 80px;
   overflow: hidden;
+  width: 100%;
 }
 .stepper-footer {
-  position: sticky;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
   min-height: 80px;
   height: 80px;
