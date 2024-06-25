@@ -16,3 +16,47 @@
 .company-detail p span {
   font-weight: 600;
 }
+.company-holders {
+  margin-top: 12px;
+}
+.company-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  border-bottom: 1px solid #e2e8f0;
+}
+.company-holder h6 {
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 22.75px;
+  text-align: left;
+  color: #334155;
+  margin: 0;
+}
+.company-holder-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.company-holder-actions p {
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 22.75px;
+  text-align: left;
+  color: #6b67b2;
+  margin: 0;
+}
+.company-holder-actions .editicon {
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+  text-align: center;
+  background: #f1f5f9;
+}
+.company-holder-actions .editicon .editIcon {
+  width: 16px;
+  height: 16px;
+  color: #3f3c76;
+}
