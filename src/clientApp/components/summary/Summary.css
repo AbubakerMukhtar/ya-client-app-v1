@@ -4,6 +4,9 @@
   justify-content: space-between;
   align-items: stretch;
 }
+.content-partition {
+  width: 49%;
+}
 .company-detail p {
   font-size: 14.22px;
   font-weight: 400;

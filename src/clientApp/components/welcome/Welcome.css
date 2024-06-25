@@ -1,0 +1,26 @@
+.welcome-paper {
+  padding: 50px 30px;
+  border-radius: 16px 16px 8px 8px;
+  background: #ffffff;
+  border-top: 1px solid #e6e7eb;
+  box-shadow: 0px 0px 20px 0px #0000000d;
+}
+.welcome-paper h1 {
+  font-size: 32.44px;
+  font-weight: 700;
+  line-height: 51.9px;
+  text-align: left;
+  color: #28264b;
+  margin: 0;
+}
+.welcome-paper p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 32px;
+}
+.welcome-paper p:last-child {
+  margin-bottom: 0px;
+}
