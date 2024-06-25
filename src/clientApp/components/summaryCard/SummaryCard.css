@@ -1,0 +1,19 @@
+.summary-card {
+  width: 612px;
+  height: 255px;
+  padding: 16px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px #0000000d;
+}
+.card-title {
+  border-bottom: 1px solid #e2e8f0;
+}
+.card-title h5 {
+  font-size: 20.25px;
+  font-weight: 600;
+  line-height: 32.4px;
+  text-align: left;
+  color: #28264b;
+  margin-bottom: 16px;
+}

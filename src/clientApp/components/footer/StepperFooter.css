@@ -1,0 +1,107 @@
+footer{
+  height: 80px;
+  overflow: hidden;
+}
+.stepper-footer {
+  position: sticky;
+  width: 100%;
+  min-height: 80px;
+  height: 80px;
+  padding: 15px 0;
+  border-top: 1px solid #e2e8f0;
+  border-left: 1px solid #e2e8f0;
+  background-color: white;
+  flex-shrink: 0;
+}
+
+.footer-buttons-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-button-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 50px;
+  border-width: 1px 0px 1px 1px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #28264b;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.footer-back-button img {
+  margin-right: 10px;
+}
+
+.footer-back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 50px;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #cecce5;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #28264b;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.footer-get-started-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 50px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #cecce5;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+  color: #28264b;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.footer-next-button img,
+.footer-get-started-button img {
+  margin-left: 10px;
+}
+
+.footer-back-button.active,
+.footer-next-button.active,
+.footer-get-started-button.active {
+  background-color: #cecce5;
+}
+
+.footer-back-button:hover,
+.footer-next-button:hover,
+.footer-get-started-button:hover {
+  background-color: #cecce5;
+}

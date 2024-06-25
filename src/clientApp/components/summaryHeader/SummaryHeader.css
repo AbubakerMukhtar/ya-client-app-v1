@@ -1,0 +1,23 @@
+.summay-header {
+  height: 138px;
+  padding: 50px 30px 0px 30px;
+  border-radius: 16px 16px 8px 8px;
+  background: #ffffff;
+  border-top: 1px solid #e6e7eb;
+  box-shadow: 0px 0px 20px 0px #0000000d;
+}
+.title {
+  font-size: 25.63px;
+  font-weight: 700;
+  line-height: 41.01px;
+  text-align: left;
+  color: #28264b;
+}
+.description {
+  font-size: 14.22px;
+  font-weight: 400;
+  line-height: 22.75px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 24px;
+}

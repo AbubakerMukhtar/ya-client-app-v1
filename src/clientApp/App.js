@@ -1,7 +1,6 @@
-import './App.css';
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navigation from './clientApp/navigation/Navigation';
+import Navigation from './navigation/Navigation';
 
 const App = () => {
   return (

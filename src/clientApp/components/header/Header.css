@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.header-left,
+.header-left-border,
+.header-company-button,
+.header-right {
+  height: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left-border {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #e2e8f0;
+}
+
+.toggle-button {
+  padding: 0;
+  margin: 0 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+}
+.toggle-button:hover {
+  background-color: #cecce5;
+}
+
+.company-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 5px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #28264b;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 16px;
+  transition: background-color 0.5s ease;
+}
+
+.company-button:hover {
+  background-color: #cecce5;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow-x: auto;
+}
