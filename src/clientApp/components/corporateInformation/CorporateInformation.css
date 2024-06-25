@@ -1,0 +1,22 @@
+.corporate-paper {
+  padding: 50px 30px 32px 30px;
+  border-radius: 16px 16px 8px 8px;
+  background: #ffffff;
+  border-top: 1px solid #e6e7eb;
+  box-shadow: 0px 0px 20px 0px #0000000d;
+}
+.corporate-paper p {
+  font-size: 14.22px;
+  font-weight: 600;
+  line-height: 22.75px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 32px;
+}
+.corporate-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+  gap: 30px;
+}

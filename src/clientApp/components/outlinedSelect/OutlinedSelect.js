@@ -1,7 +1,7 @@
 import React from "react";
-import "./Select.css";
+import "./OutlinedSelect.css";
 
-const Select = (props) => {
+const OutlinedSelect = (props) => {
   return (
     <>
       <select
@@ -26,4 +26,4 @@ const Select = (props) => {
   );
 };
 
-export default Select;
+export default OutlinedSelect;
