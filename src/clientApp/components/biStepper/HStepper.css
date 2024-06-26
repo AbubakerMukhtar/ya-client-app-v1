@@ -1,20 +1,28 @@
 .horizontal-stepper {
   width: 100%;
-  height: 121px;
+  padding: 24px 50px 32px 50px;
   border-radius: 8px 8px 0 0;
   background-color: #28264b;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.steps{
-  width: 100%;
-  padding: 0px 50px 32px 50px;
+
+.steps-row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100%;
 }
+
+.labels-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+}
+
 .step {
   position: relative;
   min-width: 16px;
@@ -33,6 +41,7 @@
   width: 36px;
   height: 36px;
 }
+
 .inner-dot {
   width: 8px;
   height: 8px;
@@ -44,17 +53,17 @@
   transform: translate(-50%, -50%);
 }
 
-.step .step-label {
-  position: absolute;
-  top: 40px; 
+.step-label {
   font-size: 12.8px;
   font-weight: 600;
   line-height: 19.2px;
   text-align: center;
   color: #FFFFFF;
   opacity: 60%;
+  transition: opacity 0.3s;
 }
-.step .step-label.active{
+
+.step-label.active {
   opacity: 100%;
 }
 
@@ -62,4 +71,5 @@
   flex-grow: 1;
   height: 2px;
   background-color: #FFFFFF;
+  transition: background-color 0.3s;
 }
